@@ -2,7 +2,7 @@
 #### All purpose deep learning + cheminformatics Lib
 
 #### Example Usage
-    #!/bin/bash/python 
+``` python
     import sys
     from MolUtils.tokenizer import Tokenizer
     from MolUtils.dataloader import Dataset 
@@ -42,4 +42,5 @@
     # Load Batch using the Dataset Class
     for idx,data in enumerate(ds.load_batches(batch_size=2,padding=True)):
         pass
-    exit()  
+    exit()
+ ```
