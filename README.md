@@ -1,6 +1,6 @@
 # MolUtils
-#### All purpose deep learning + cheminformatics Lib
-
+Some utility functions I wrote back in time, just abstractions and wrappers on top of RDKIT to make it easier to train some models. 
+This code is pretty old but what I would write today is a lot more refined. In fact I wrote the entire chemistry package extension at Cellarity!
 #### Example Usage
 ``` python
     import sys
